@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>{{metaTags.title}}</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-wrapper container">
+            <div class="header-logo">
+                <a href="/"><img src="../images/logo.png" alt="logo"></a>
+            </div>
+
+        </div>
+    </header>
+    <main class="flex-1">
+        <div class="nav-wrapper container">
+            <div>
+                <div class="toggler-wrapper">
+                    <input type="checkbox" class="toggler">
+                    <div class="toggler-btn">
+                        <div></div>
+                    </div>
+                </div>
+                <label for="menu">Menu</label>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-list">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="/parish" class=" nav-link">Parish</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="/mass-schedule" class=" nav-link">Parish Activities</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="/event" class=" nav-link">Event</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="/contact" class=" nav-link">Contact</a>
+                    </li>
+                    <li class="nav-list">
+                        <a href="/about" class=" nav-link">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        {{{body}}}
+    </main>
+    <footer>
+        <div>
+            &copy; 2020, Christ the king Catholic Church
+        </div>
+    </footer>
+
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
