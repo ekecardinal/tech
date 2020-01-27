@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "server.js",
+    "start": "index.js",
     "dev-start": "nodemon server.js"
   },
   "author": "Emmanuel Tochukwu",
